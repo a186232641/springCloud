@@ -4,19 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ff4a71-7c34-4ce9-b60a-ec5dcb356485" name="更改" comment="尚硅谷第七集----配置mybatis">
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="01ff4a71-7c34-4ce9-b60a-ec5dcb356485" name="更改" comment="尚硅谷第八集----搭建支付服务">
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/entities/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/entities/PayDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/mapper/PayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/service/Impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PayMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +68,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hanfeilong/Documents/code/Java/cloud2024/cloud-provider-payment8001/src/main/java/com/atguigu/cloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +78,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="/opt/homebrew/bin/lua" />
@@ -88,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721919808851</updated>
-      <workItem from="1721919809899" duration="5394000" />
+      <workItem from="1721919809899" duration="7616000" />
     </task>
     <task id="LOCAL-00001" summary="对应尚硅谷第六集----初始化配置项目">
       <option name="closed" value="true" />
@@ -114,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721998082861</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="尚硅谷第八集----搭建支付服务">
+      <option name="closed" value="true" />
+      <created>1721999217393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721999217393</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="对应尚硅谷第六集----初始化配置项目" />
     <MESSAGE value="尚硅谷第七集----配置mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="尚硅谷第七集----配置mybatis" />
+    <MESSAGE value="尚硅谷第八集----搭建支付服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="尚硅谷第八集----搭建支付服务" />
   </component>
 </project>
