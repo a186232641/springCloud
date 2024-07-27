@@ -55,7 +55,7 @@ public class PayController {
     @Operation(summary = "查询", description = "根据id查询")
     @GetMapping("/pay/get/{id}")
     public ResultData<Pay> getById(@PathVariable("id") Integer id) {
-        if(id<0){
+        if (id < 0) {
             throw new RuntimeException("传入的id不合法");
         }
         Pay pay = payService.getById(id);
@@ -71,8 +71,9 @@ public class PayController {
 
     @Value("${server.port}")
     private String port;
+
     @GetMapping("/pay/get/info")
-    public String getInfoByConsul(@Value("${atguigu.info}") String atiguguiInfo){
+    public String getInfoByConsul(@Value("${atguigu.info}") String atiguguiInfo) {
         return "atguigu.info :" + atiguguiInfo + "\t" + "port:" + port;
     }
 

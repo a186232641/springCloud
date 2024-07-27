@@ -3,21 +3,16 @@ package com.atguigu.cloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
-import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @author 韩飞龙
  * @version 1.0
- * 2024/7/26
+ * 2024/7/27
  */
 @SpringBootApplication
-@MapperScan("com.atguigu.cloud.mapper")
 @EnableDiscoveryClient
-@RefreshScope
-public class Main8001 {
-
+public class Main80 {
     public static void main(String[] args) {
-        SpringApplication.run(Main8001.class,args);
+        SpringApplication.run(Main80.class);
     }
 }
