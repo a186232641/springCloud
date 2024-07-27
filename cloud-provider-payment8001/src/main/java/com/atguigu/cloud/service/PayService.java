@@ -9,6 +9,7 @@ import java.util.List;
  * @version 1.0
  * 2024/7/26
  */
+
 public interface PayService {
    public int add(Pay pay);
    public int delete(Integer id) ;
