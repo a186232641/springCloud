@@ -18,11 +18,11 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-    @ExceptionHandler(RuntimeException.class)
-    @ResponseStatus(HttpStatus.ACCEPTED)
-    public ResultData<String> exception(Exception e){
-        System.out.println("###come in GlobalExceptionHandler");
-        log.error("全局异常信息:{}",e.getMessage(),e);
-        return ResultData.fail(ReturnCodeEnum.RC500.getCode(), ReturnCodeEnum.RC500.getMessage());
-    }
+//    @ExceptionHandler(Exception.class)
+//    @ResponseStatus(HttpStatus.ACCEPTED)
+//    public ResultData<String> exception(Exception e){
+//        System.out.println("###come in GlobalExceptionHandler");
+//        log.error("全局异常信息:{}",e.getMessage(),e);
+//        return ResultData.fail(ReturnCodeEnum.RC500.getCode(), ReturnCodeEnum.RC500.getMessage());
+//    }
 }
